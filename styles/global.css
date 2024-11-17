@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --text-xxg: 800 8rem/125%;
+    --text-xg: 800 4rem/125%;
+    --text-x: 600 2rem/170%;
+    --text-md: 600 1.5rem/170%;
+    --text-sm: 600 1rem/170%;
+}
+
+body {
+    background: linear-gradient(to bottom, #000000, #1E1E1E);
+    font-family: Arial, sans-serif;
+    margin: auto;
+    position: relative;
+
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.line {
+    height: 1px;
+    background-color: #444444;
+    margin-inline: 6.25rem;
+}

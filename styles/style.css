@@ -318,17 +318,25 @@ footer {
     display: grid;
     justify-items: center;
     align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    a {
+        text-decoration: none;
+        color: #CACACA;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        color: #FFFFFF;
+    }
+
+    p {
+        color: #FFFFFF;
+        font-size: 1rem;
+    }
 
     #info-footer{
-
-        & a {
-            text-decoration: none;
-        }
-
-        & p {
-            color: #FFFFFF;
-            font-size: 1rem;
-        }
 
         #links{
             margin-top: 2rem;
@@ -356,8 +364,9 @@ footer {
 
         #dev {
             margin-top: 1rem;
-            align-items: center;
             justify-items: center;
+            align-items: center;
+            margin: center;
         }
     }
 }

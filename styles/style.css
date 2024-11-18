@@ -309,7 +309,6 @@ body {
             row-gap: 0.25rem;
         }
     }
-
 }
 
 footer {
@@ -319,7 +318,9 @@ footer {
     justify-items: center;
     align-items: center;
     justify-content: center;
-    margin: auto;
+    margin: 0;
+    width: 100vw;
+    position: relative;
 
     a {
         text-decoration: none;

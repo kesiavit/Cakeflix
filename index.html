@@ -8,95 +8,111 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header>
-        <img src="./assets/Logomarca.svg" alt="Logomarca">
-
-        <nav>
-            <a href="#section-who">Quem somos</a>
-            <a href="#products">Produtos</a>
-            <a href="#promotion">Promoções</a>
-        </nav>
-    </header>
-
-    <div class="line"></div>
-
-    <section id="section-who">
-        <div class="info-who">
-            <h1>quem <br> somos<span>.</span></h1>
-            <p>A CakeFlix transforma suas séries favoritas da Netflix em experiências deliciosas, com doces temáticos que tornam cada momento ainda mais especial.</p>
-            <!-- <div class="button">
-            <a href="#">Garanta o seu</a>
-            </div> -->
-            <a href="#">
-                <div class="button">Garanta o seu</div>
-            </a>
-        </div>
-
-        <div id="img-cupcake">
-            <img src="./assets/img-cupcake.png" alt="Imagem de um cupcake usando um óculos 3d">
-        </div>
-    </section>
-
-    <section id="products">
-        <h2>Produtos</h2>
-        <div id="cards">
-            <div class="card-product">
-                <img src="./assets/img-produto.png" alt="Um cupcake de chocolate">
-
-                <div class="info-card">
-                    <div class="description">
-                        <h3>Cupcake de chocolate</h3>
-                        <p>Recheado com brigadeiro e possui uma cobertura de chocolate feita com bico artesanal.</p>
-                    </div>
-                    <div class="price">R$ 5,00</div>
-                    <a href="#">
-                        <div class="button">Reserve o seu
+    <div id="conteiner">
+        <header>
+            <img src="./assets/Logomarca.svg" alt="Logomarca">
+    
+            <nav>
+                <a href="#section-who">Quem somos</a>
+                <a href="#products">Produtos</a>
+                <a href="#promotion">Promoções</a>
+            </nav>
+        </header>
+    
+        <div class="line"></div>
+    
+        <section id="section-who">
+            <div class="info-who">
+                <h1>quem <br> somos<span>.</span></h1>
+                <p>A CakeFlix transforma suas séries favoritas da <a href="https://www.netflix.com/br/">Netflix</a> em experiências deliciosas, com doces temáticos que tornam cada momento ainda mais especial.</p>
+                <a id="button" href="#">
+                    <div class="button">Garanta o seu</div>
+                </a>
+            </div>
+    
+            <div id="img-cupcake">
+                <img src="./assets/img-cupcake.png" alt="Imagem de um cupcake usando um óculos 3d">
+            </div>
+        </section>
+    
+        <section id="products">
+            <h2>Produtos</h2>
+            <div id="cards">
+                <div class="card-product">
+                    <img src="./assets/img-produto.png" alt="Um cupcake de chocolate">
+    
+                    <div class="info-card">
+                        <div class="description">
+                            <h3>Cupcake de chocolate</h3>
+                            <p>Recheado com brigadeiro e possui uma cobertura de chocolate feita com bico artesanal.</p>
                         </div>
-                    </a>
+                        <div class="price">R$ 5,00</div>
+                        <a href="#">
+                            <div class="button">Reserve o seu
+                            </div>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="card-top">
+                    <img id="circles" src="./assets/circles.svg" alt="três esferas decorativas">
+    
+                    <div id="info-top">
+                        <h3>Topo do cupcake</h3>
+                        <p>Você escolhe o seu tema! ;)</p>
+                    </div>
+    
+                    <div id="figures">
+                        <img id="img-topo" src="./assets/img-topo.svg" alt="Imagem de um topo de cupcake do tema Stranger Things">
+                        <img id="arrow" src="./assets/arrow.svg" alt="Seta vermelha mirando para baixo">
+                    </div>
                 </div>
             </div>
-
-            <div class="card-top">
-                <img id="circles" src="./assets/circles.svg" alt="três esferas decorativas">
-
-                <div id="info-top">
-                    <h3>Topo do cupcake</h3>
-                    <p>Você escolhe o seu tema! ;)</p>
+        </section>
+    
+        <section id="thematic">
+            <h2>Temas</h2>
+            <div id="series">
+                <div>Brooklyn 99</div>
+                <div>The Flash</div>
+                <div>The umbrella academy</div>
+                <div>Anne with an E</div>
+                <div>O amor mora ao lado</div>
+                <div>Friends</div>
+                <div>Outer Banks</div>
+                <div>Pretendente surpresa</div>
+                <div>La casa de papel</div>
+                <div>Stranger things</div>
+                <div>Breaking Bad</div>
+                <div>Brigderton</div>
+                <div>Heartstopper</div>
+                <div>The Chosen</div>
+                <div>Arcane</div>
+            </div>
+        </section>
+    
+        <section id="promotion">
+            <img src="./assets/ilumination-promo.svg" alt="">
+            <div id="itens-promo">
+                <div id="promo">
+                    <h1>PRO <br> MO</h1>
+                    <h1 class="red">PRO <br> MO</h1>
+                    <h1>PRO <br> MO</h1>
                 </div>
-
-                <div id="figures">
-                    <img id="img-topo" src="./assets/img-topo.svg" alt="Imagem de um topo de cupcake do tema Stranger Things">
-                    <img id="arrow" src="./assets/arrow.svg" alt="Seta vermelha mirando para baixo">
+                <div id="card-promo">
+                    <img src="./assets/3-cupcakes.png" alt="imagem com tês cupcakes de chocolate">
+                    <div id="info-promo">
+                        <h2>Compre 3 cupcakes</h2>
+                        <div id="price-promo">
+                            <small>R$15,00</small>
+                            <h3>R$ 12,00</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section id="thematic">
-        <h2>Temas</h2>
-        <div id="series">
-            <div>Brooklyn 99</div>
-            <div>The Flash</div>
-            <div>The umbrella academy</div>
-            <div>Anne with an E</div>
-            <div>O amor mora ao lado</div>
-            <div>Friends</div>
-            <div>Outer Banks</div>
-            <div>Pretendente surpresa</div>
-            <div>La casa de papel</div>
-            <div>Stranger things</div>
-            <div>Breaking Bad</div>
-            <div>Brigderton</div>
-            <div>Heartstopper</div>
-            <div>The Chosen</div>
-            <div>Arcane</div>
-        </div>
-    </section>
-
-    <section id="promotion">
-        <h2>Promoção</h2>
-    </section>
-
+        </section>    
+    </div>
+    
     <footer>
         <img src="./assets/logo.svg" alt="Logomarca">
         <div id="info-footer">

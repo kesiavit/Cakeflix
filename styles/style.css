@@ -433,7 +433,7 @@ footer {
     #products {
         width: auto;
         margin: auto;
-        margin-top: 12rem;
+        margin-top: 8rem;
         margin-inline: 1.25rem;
         justify-items: center;
     
@@ -532,6 +532,7 @@ footer {
     margin-top: 8rem;
     margin-bottom: 6rem;
     width: auto;
+    margin-inline: 1.25rem;
 
         h2 {
         font-size: 2rem;
